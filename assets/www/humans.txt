@@ -1,0 +1,49 @@
+
+                            
+/* TEAM */
+
+                            
+Your title: Digitalbox.cc
+
+                            
+Site: site@digitalbox.cc
+
+                            
+Twitter: @digitalboxcc
+
+
+Facebook: https://www.facebook.com/DigitalBox.cc
+
+                            
+Location: S&atilde;o Paulo, Brasil.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: Digitalbox Dream Team.
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 02/04/2014 
+
+                            
+Standards: HTML5, CSS3, Bootstrap.
+
+                            
+Components: jQuery, Swift Mailer (PHP lib).
+
+                            
+Software: Sublime.
