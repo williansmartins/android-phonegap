@@ -1,0 +1,12 @@
+jsonCallback(
+	{ 
+		"colaboradores" : 
+		[ 
+	        { "nome": "Willians Martins", "funcao": "Desenvolvedor Web", "foto" : "will.jpg"  },
+	        { "nome": "Amandita Areias", "funcao": "Back-end", "foto" : "amanda.jpg"  },
+	        { "nome": "André Alexandre", "funcao": "Líder de Equipe", "foto" : "andre.jpg"  },
+	        { "nome": "Augusto Rey", "funcao": "Front-end", "foto" : "augusto.jpg"  }
+    	]
+	}
+);
+

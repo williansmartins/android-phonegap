@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	
+	    <title>digitalbox.cc</title>
+	    <link rel="shortcut icon" href="favicon03b6.ico?refresh">
+	    <script src="js/jquery-1.10.2.js"></script>
+	
+	</head>
+	<script>
+		// var $resultado;  
+		var $url = "http://digitalbox.cc/colaboradores.json?callback=jsonCallback";   
+
+		function metodo(){
+			$.ajax({
+			   type: 'GET',
+			    url: $url,
+			    async: false,
+			    jsonpCallback: 'jsonCallback',
+			    contentType: "application/json",
+			    dataType: 'jsonp',
+			    success: function(json) {
+			       alert(">>" + json.colaboradores[0].nome);
+			       console.dir(json.colaboradores);
+			    },
+			    error: function(e) {
+			    	alert("erro");
+			        console.log(e.message);
+			    }
+			});			 
+		}
+			// $.ajax({         
+			// 	type: 'GET',         
+			// 	url: $url,         
+			// 	crossDomain: true,         
+			// 	contentType: "application/json; charset=utf-8",         
+			// 	data: { UserID: 1234 },         
+			// 	dataType: "json",         
+			// 	success: function(data) {             
+			// 		$resultado = data;
+			// 		alert( $resultado.Colaboradores[0].nome );
+			// 	},         
+			// 	error: function(xhr, status, error) { 
+			// 		alert('Error !!: ' + error); 
+			// 	},         
+			// 	async: false,         
+			// 	cache: false     
+			// });
+
+
+
+	</script>
+	<body>
+		<button onclick="metodo()">clica em mim 1</button>
+	</body>
+</html>
